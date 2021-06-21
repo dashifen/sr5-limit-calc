@@ -1,0 +1,26 @@
+{
+  "name": "dashifen/sr5-limit-calculator",
+  "description": "A plugin that quickly calculates SR5 attribute limits.",
+  "minimum-stability": "stable",
+  "type": "wordpress-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "David Dashifen Kees",
+      "email": "dashifen@dashifen.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dashifen\\LimitCalculator\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "dashifen/wp-handler": "^10.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

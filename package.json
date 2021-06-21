@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "license": "UNLICENSED",
+  "name": "dashifen-sr5-limit-calculator",
+  "version": "1.0.0",
+  "description": "A WordPress widget block that displays an SR5 limit calculator.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashifen/sr5-limit-calculator"
+  },
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@vue/compiler-sfc": "^3.1",
+    "babel-preset-minify": "^0.5.1",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "file-loader": "^6.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "vue": "^3.0",
+    "vue-loader": "^16.2",
+    "webpack": "^5.38",
+    "webpack-cli": "^4.7"
+  },
+  "scripts": {
+    "watch": "webpack --env development --watch",
+    "build": "webpack --env production"
+  }
+}
