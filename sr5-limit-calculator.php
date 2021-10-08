@@ -4,19 +4,15 @@
  * Description: A Gutenberg widget block to display an SR5 Limit Calculator
  * Author URI: dashifen@dashifen.com
  * Author: David Dashifen Kees
- * Version: 1.0.0
- *
- * @noinspection PhpIncludeInspection
+ * Version: 2.0.0
  */
 
 use Dashifen\LimitCalculator\LimitCalculator;
 use Dashifen\WPHandler\Handlers\HandlerException;
 
-$autoloader = file_exists(dirname(ABSPATH) . '/deps/vendor/autoload.php')
-  ? dirname(ABSPATH) . '/deps/vendor/autoload.php'    // production location
-  : 'vendor/autoload.php';                            // development location
-
-require_once($autoloader);
+if (!class_exists('Dashifen\LimitCalculator\LimitCalculator')) {
+  require_once 'vendor/autoload.php';
+}
 
 (function() {
   try {
