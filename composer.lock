@@ -170,16 +170,16 @@
         },
         {
             "name": "dashifen/repository",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/repository.git",
-                "reference": "f13177a7a9a8f61056b3671e2c97e3b7491e67bf"
+                "reference": "2216eb2f17cf56afe4469535a2a333669f6279df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/repository/zipball/f13177a7a9a8f61056b3671e2c97e3b7491e67bf",
-                "reference": "f13177a7a9a8f61056b3671e2c97e3b7491e67bf",
+                "url": "https://api.github.com/repos/dashifen/repository/zipball/2216eb2f17cf56afe4469535a2a333669f6279df",
+                "reference": "2216eb2f17cf56afe4469535a2a333669f6279df",
                 "shasum": ""
             },
             "require": {
@@ -208,9 +208,9 @@
             "description": "An object with read-only protected properties from which other objects can be extened.",
             "support": {
                 "issues": "https://github.com/dashifen/repository/issues",
-                "source": "https://github.com/dashifen/repository/tree/3.1.1"
+                "source": "https://github.com/dashifen/repository/tree/3.1.2"
             },
-            "time": "2021-05-04T14:19:46+00:00"
+            "time": "2021-08-03T20:54:22+00:00"
         },
         {
             "name": "dashifen/transformer",
@@ -297,16 +297,16 @@
         },
         {
             "name": "dashifen/wp-handler",
-            "version": "10.9.2",
+            "version": "10.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-handler.git",
-                "reference": "5ff5be81d9d7df36c1a7e2ae0b22b0517b1dc74a"
+                "reference": "4adc11a634107b01e74ce83f33bb9310f96634a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/5ff5be81d9d7df36c1a7e2ae0b22b0517b1dc74a",
-                "reference": "5ff5be81d9d7df36c1a7e2ae0b22b0517b1dc74a",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/4adc11a634107b01e74ce83f33bb9310f96634a0",
+                "reference": "4adc11a634107b01e74ce83f33bb9310f96634a0",
                 "shasum": ""
             },
             "require": {
@@ -340,9 +340,9 @@
             "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
             "support": {
                 "issues": "https://github.com/dashifen/wp-handler/issues",
-                "source": "https://github.com/dashifen/wp-handler/tree/10.9.2"
+                "source": "https://github.com/dashifen/wp-handler/tree/10.10.0"
             },
-            "time": "2021-06-22T14:06:45+00:00"
+            "time": "2021-09-28T19:25:08+00:00"
         }
     ],
     "packages-dev": [],
