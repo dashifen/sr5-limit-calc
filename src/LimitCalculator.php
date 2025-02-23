@@ -1,6 +1,6 @@
 <?php
 
-namespace Dashifen\LimitCalculator;
+namespace Dashifen\WordPress\Plugins\Sr5LimitCalculator;
 
 use Dashifen\WPHandler\Handlers\HandlerException;
 use Dashifen\WPHandler\Handlers\Plugins\AbstractPluginHandler;
