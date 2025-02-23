@@ -1,5 +1,5 @@
 {
-  "name": "dashifen/wp-plugin-sr5-limit-calculator",
+  "name": "dashifen/sr5-limit-calc",
   "description": "A plugin that quickly calculates SR5 attribute limits.",
   "minimum-stability": "stable",
   "type": "wordpress-plugin",
